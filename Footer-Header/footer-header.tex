@@ -1,0 +1,44 @@
+
+\documentclass{article}
+\usepackage{blindtext}% dummy text
+\usepackage{tikz}
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles
+\cfoot*{\pagemark}
+
+\tikzset{
+  margins/.style={rectangle,anchor=north, minimum width=\paperwidth, minimum height=.15cm,outer sep=0pt},
+  cajanaranja/.style={margins, fill=orange},
+  cajagris/.style={margins,fill=gray,minimum height=3cm},
+  %cajanaranjaabajo/.style={margins, fill=orange},
+  cajagrisabajo/.style={margins, fill=gray}
+}
+
+\newsavebox\firstheader
+\savebox\firstheader{\tikz{
+  \node [cajanaranja] (boxorange){};
+  \node [cajagris] (boxgray) at (boxorange.south){};
+}}
+\newsavebox\headerorfooter
+\savebox\headerorfooter{\tikz{
+  \node [cajanaranja] (boxorange){};
+  \node [cajagrisabajo] (boxgray) at (boxorange.south){};
+}}
+
+\DeclareNewLayer[
+  background,
+  mode=picture,
+  contents={
+  \ifnum \value{page}=1
+  \putUL{\raisebox{-\height}{\usebox\firstheader}}
+  \else
+  \putUL{\raisebox{-\height}{\usebox\headerorfooter}}
+  \fi
+  \putLL{\usebox\headerorfooter}}
+]{margins.bg}
+\AddLayersToPageStyle{@everystyle@}{margins.bg}
+
+
+\begin{document}
+\blinddocument
+\end{document}
