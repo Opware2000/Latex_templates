@@ -57,7 +57,7 @@
 \definecolor{image-yellow}{RGB}{255, 165, 0}
 
 %Chemin des images
-\newcommand{\path}{images/}
+\newcommand{\cheminfichier}{images/}
 
 %environnement du corps de l’infoBulle
 \newmdenv[
@@ -73,7 +73,7 @@
 %Formatage du titre
 \newcommand{\@titleContent}[2]{
 	\hspace*{2mm}\begin{minipage}{.75cm}
-		\includegraphics[width=\linewidth]{\path #1}
+		\includegraphics[width=\linewidth]{\cheminfichier #1}
 	\end{minipage}\hspace*{1mm}\begin{minipage}{\textwidth-1.05cm}
 			#2
 	\end{minipage}
