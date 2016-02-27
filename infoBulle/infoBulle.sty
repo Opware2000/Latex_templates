@@ -82,9 +82,9 @@
 %Squelette de la commande
 \newcommand{\@infoBulleSkeleton}[4]{
 	\begin{infoBulle}[style=#1, frametitle=\@titleContent{#2}{#3}]
-		\vspace*{1mm} %empêche la minipage contenant l’image de voir sa partie inférieure masquée par le contenu de la bulle!
+		\vspace*{3mm} %empêche la minipage contenant l’image de voir sa partie inférieure masquée par le contenu de la bulle!
 		\begin{content}
-			#4
+			{\sffamily #4}
 		\end{content}
 	\end{infoBulle}
 }
