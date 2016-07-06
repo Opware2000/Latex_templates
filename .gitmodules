@@ -1,0 +1,18 @@
+[submodule "latex-base"]
+	path = latex-base
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/latex-base
+[submodule "word-tex"]
+	path = word-tex
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/word-tex
+[submodule "latexbook"]
+	path = latexbook
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/latexbook
+[submodule "Text-Workflows"]
+	path = Text-Workflows
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/Text-Workflows
+[submodule "latexHints"]
+	path = latexHints
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/latexHints
+[submodule "TwentySecondsCurriculumVitae-LaTex"]
+	path = TwentySecondsCurriculumVitae-LaTex
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/TwentySecondsCurriculumVitae-LaTex
