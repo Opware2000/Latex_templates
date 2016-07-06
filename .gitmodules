@@ -16,3 +16,9 @@
 [submodule "TwentySecondsCurriculumVitae-LaTex"]
 	path = TwentySecondsCurriculumVitae-LaTex
 	url = /Users/nicolasogier/Documents/workspace/Latex-template/TwentySecondsCurriculumVitae-LaTex
+[submodule "master-thesis"]
+	path = master-thesis
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/master-thesis
+[submodule "2b-resume"]
+	path = 2b-resume
+	url = /Users/nicolasogier/Documents/workspace/Latex-template/2b-resume
