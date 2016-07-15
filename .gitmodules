@@ -22,3 +22,6 @@
 [submodule "2b-resume"]
 	path = 2b-resume
 	url = /Users/nicolasogier/Documents/workspace/Latex-template/2b-resume
+[submodule "markdown-memo"]
+	path = markdown-memo
+	url = https://github.com/rreece/markdown-memo
