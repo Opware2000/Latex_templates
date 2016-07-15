@@ -25,3 +25,6 @@
 [submodule "markdown-memo"]
 	path = markdown-memo
 	url = https://github.com/rreece/markdown-memo
+[submodule "latexss"]
+	path = latexss
+	url = https://github.com/zhuangjindu/latexss.git
