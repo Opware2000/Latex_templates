@@ -28,3 +28,6 @@
 [submodule "latexss"]
 	path = latexss
 	url = https://github.com/zhuangjindu/latexss.git
+[submodule "framasoft-beamer"]
+	path = framasoft-beamer
+	url = https://framagit.org/Framatophe/BredeleDiapo.git
