@@ -31,3 +31,6 @@
 [submodule "framasoft-beamer"]
 	path = framasoft-beamer
 	url = https://framagit.org/Framatophe/BredeleDiapo.git
+[submodule "ApercudePandoc"]
+	path = ApercudePandoc
+	url = https://framagit.org/Framatophe/ApercudePandoc.git
