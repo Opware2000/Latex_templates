@@ -34,3 +34,6 @@
 [submodule "ApercudePandoc"]
 	path = ApercudePandoc
 	url = https://framagit.org/Framatophe/ApercudePandoc.git
+[submodule "phd"]
+	path = phd
+	url = https://github.com/yannisl/phd.git
