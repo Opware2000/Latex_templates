@@ -37,3 +37,6 @@
 [submodule "phd"]
 	path = phd
 	url = https://github.com/yannisl/phd.git
+[submodule "mtheme"]
+	path = mtheme
+	url = https://github.com/matze/mtheme.git
